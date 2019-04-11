@@ -1,12 +1,10 @@
-import Link from 'next/link'
+import Header from '../components/Header'
 
-const Index = () => (
-  <div>
-    <Link href='/about'>
-      <button>About Page</button>
-    </Link>
-    <p>Hello</p>
-  </div>
-)
-
-export default Index
+export default function Index() {
+  return (
+    <div>
+      <Header />
+      <p>Hello</p>
+    </div>
+  )
+}
