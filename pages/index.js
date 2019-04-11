@@ -1,7 +1,7 @@
-const index = () => (
+const Index = () => (
   <div>
     <p>Hello</p>
   </div>
 )
 
-export default index
+export default Index
